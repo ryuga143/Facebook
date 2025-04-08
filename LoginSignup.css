@@ -1,0 +1,87 @@
+/* LoginSignup.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #eaeaea; /* Light background */
+  }
+
+.container {
+    width: 350px;
+    height: 270px;
+    padding: 30px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  }
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .header .underline {
+    width: 50px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto;
+  }
+  
+  .inputs {
+    margin-top: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+  }
+  
+  .input input::placeholder {
+    color: #888;
+  }
+  button {
+    background-color: #1877F2; /* Facebook blue */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    width: 100%; /* Full width matching input fields */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Ensures it's a block-level element */
+    margin: 10px 0; /* Adjust spacing */
+  }
+  
+  button:hover {
+    background-color: #166FE5;
+  }
+  
